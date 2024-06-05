@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: auto;
+    max-width: 1450px;
+}
+body{
+    background-color: rgb(240,242,245);
+}
+.main{
+    width: 400px;
+    height: 350px;
+    border: 1px solid rgb(201,204,209);
+    margin-left: 55.5%;
+    background-color: white;
+    margin-top: 8.5%;
+    border-radius: 10px;
+    position: relative;
+}
+.login{
+    margin-top: 15px;
+    position: relative;
+    margin-left: 15px;
+}
+.forinput{
+    width: 360px;
+    height: 48px;
+    border: 1px solid #b3babf;
+    border-radius: 7px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+button{
+    width: 375px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: none;
+}
+.log{
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+}
+.forgot{
+    text-align: center;
+    font-size: 7.5px;
+    margin-top: 15px;
+}
+.forforgot{
+    color: #1876f2d3;
+    text-decoration: none;
+}
+h2::before{
+    content: '';
+    height: 1px;
+    width: 350px;
+    background-color: rgb(201,204,209);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 15px;
+}
+h2::after{
+    content: '';
+    height: 1px;
+    width: 360px;
+    background-color: rgb(201,204,209);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 15px;
+}
+.log{
+    margin-top: 15px;
+}
+h2{
+    position: relative;
+    margin-top: 25px;
+}
+h4{
+    border: 1px solid red;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.newacc{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.acc{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.user{
+    width: 170px;
+    height: 200px;
+    border: 1px solid #b3babf;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 18%;
+    background-color: #c9ccd1;
+    top: 31%;
+    position: absolute;
+    cursor: pointer;
+}
+.userinfo{
+    position: absolute;
+    top: 80%;
+    border: 1px solid red;
+    width: 100%;
+    height: 19.5%;
+    background-color: #f5f6f7;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.h3{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    color: rgba(0, 0, 0, 0.701);
+    cursor: pointer;
+}
+.user1{
+    width: 170px;
+    height: 200px;
+    border: 1px solid #b3babf;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 30%;
+    background-color: #f5f6f7;
+    top: 31%;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+.h6{
+    position: absolute;
+    top: 80%;
+    border: 1px solid red;
+    width: 100%;
+    height: 19.5%;
+    background-color: #f5f6f7;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+h6{
+    font-size: 20px;
+    color:#1977f2e3;
+    padding-top: 5px;
+}
+.burn{
+    border: 1px solid #b3babf;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+    background-color: rgb(25,118,242);
+    border: none;
+}
+.burn1{
+    border: 1px solid red;
+    width: 23px;
+    border-radius: 20%;
+    height: 4px;
+    position: absolute;
+    top: 47%;
+    background-color: white;
+    border: none;
+    left: 26%;
+}
+.burn2{
+    border: 1px solid red;
+    width: 4px;
+    border-radius: 20%;
+    height: 23px;
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    border: none;
+    left: 45%;
+}
+.facebook{
+    position: absolute;
+    top: 12%;
+    font-size: 44px;
+    left: 21%;
+    color: #1877f2;
+}
+.racent{
+    position: absolute;
+    top: 20%;
+    font-size: 28.7px;
+    left: 21%;
+    color: rgba(0, 0, 0, 0.735)
+}
+.anotheracc{
+    position: absolute;
+    top: 25%;
+    left: 21%;
+    color: rgba(0, 0, 0, 0.735)
+}
+.create{
+    margin-left: 59%;
+    margin-top: 25px;
+}
+.createpage{
+    color: black;
+    text-decoration: none;
+}
+.createpage:hover{
+    text-decoration-line: underline;
+}
+.user:hover{
+    box-shadow: 0 0 0 4px #dddfe2;
+    display: block;
+    transition: all .3s ease-out;
+}
+.user1:hover{
+    box-shadow: 0 0 0 2px #dddfe2;
+    transition: all .3s ease-out;
+}
